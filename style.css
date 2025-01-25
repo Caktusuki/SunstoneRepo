@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Londrina+Sketch&family=Poppins:wght@700&family=Silkscreen:wght@400;700&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column; /* Ensure the table and color picker are in a vertical layout */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lavender; /* Use 'background-color' consistently */
+    margin: 0;
+}
+
+.color-picker {
+    text-align: center;
+    padding: 45px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Adds space above the color picker */
+}
+
+input[type="color"], input[type="text"] {
+    display: block;
+    margin: 10px auto;
+    padding: 20px;
+    width: 150px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#colorPreview {
+    margin: 15px auto;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+}
+
+#colorValue {
+    font-weight: bold;
+}
+
+/* Add spacing to the table */
+table {
+    margin-bottom: 20px; /* Space below the table */
+    border-collapse: collapse;
+}
+
+th {
+    padding: 10px;
+    border: 1px solid #000;
+}
+h1{
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1></>Colour Picker</h1>
+    <table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; border-color: black;">
+        <tr>
+            <th style="background-color: #FFFFFF;">White #FFFFFF</th>
+            <th style="background-color: #FF0000;">Red #FF0000</th>
+            <th style="background-color: #FFFF00;">Yellow #FFFF00</th>
+            <th style="background-color: #0000FF;">Blue #0000FF</th>
+        </tr>
+        <tr>
+            <th style="background-color: #00FF00;">Green #00FF00</th>
+            <th style="background-color: #FFA500;">Orange #FFA500</th>
+            <th style="background-color: #800080;">Purple #800080</th>
+            <th style="background-color: #000000; color: white;">Black #000000</th>
+        </tr>
+        <tr>
+            <th style="background-color: #A52A2A;">Brown #A52A2A</th>
+            <th style="background-color: #FFC0CB;">Pink #FFC0CB</th>
+            <th style="background-color: #808080;">Gray #808080</th>
+            <th style="background-color: #008080;">Teal #008080</th>
+        </tr>
+        <tr>
+            <th style="background-color: #F0E68C;">Khaki #F0E68C</th>
+            <th style="background-color: #FFD700;">Gold #FFD700</th>
+            <th style="background-color: #4682B4;">Steel Blue #4682B4</th>
+            <th style="background-color: #C0C0C0;">Silver #C0C0C0</th>
+        </tr>
+    </table>
+    <div class="color-picker">
+        <input type="color" id="colorInput" value="#000000"> 
+        <input type="text" id="hexInput" placeholder="#000000"> 
+        <div id="colorPreview" style="width: 50px; height: 50px; background-color: #000000;"></div>
+        
+        <p>Selected Color: <span id="colorValue">#000000</span></p>
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
